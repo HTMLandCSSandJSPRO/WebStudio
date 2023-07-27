@@ -1,0 +1,15 @@
+:root{
+    --first-main-color: #ffffff;
+    --second-main-color: #2196F3;
+    --header-line: #ECECEC;
+    --studio-logo-color: #000000;
+    --header-mail-and-tel-and-p: #757575;
+    --hero-button-shadow:#00000026;
+    --textheader-color-and-nav: #212121;
+    --worker-section-color: #F5F4FA;
+    --worker-box-shadow-first: #00000033;
+    --worker-box-shadow-second: #00000024;
+    --worker-box-shadow-third: #0000001F;
+    --footer-mail-and-tel: #FFFFFF99;
+    --footer-and-hero-color: #2F303A;
+}
