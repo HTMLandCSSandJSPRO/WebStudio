@@ -13,3 +13,12 @@
     --footer-mail-and-tel: #FFFFFF99;
     --footer-and-hero-color: #2F303A;
 }
+body{
+    font-family: 'Roboto';
+}
+
+.header__logo{
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+}
