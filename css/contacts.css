@@ -1,10 +1,10 @@
-:root {
+:root{
     --first-main-color: #ffffff;
     --second-main-color: #2196F3;
     --header-line: #ECECEC;
     --studio-logo-color: #000000;
     --header-mail-and-tel-and-p: #757575;
-    --hero-button-shadow: #00000026;
+    --hero-button-shadow:#00000026;
     --textheader-color-and-nav: #212121;
     --worker-section-color: #F5F4FA;
     --worker-box-shadow-first: #00000033;
@@ -14,12 +14,11 @@
     --footer-and-hero-color: #2F303A;
     --portdolio-container: #EEEEEE;
 }
-
-body {
+body{
     font-family: 'Roboto';
 }
 
-.header__logo {
+.header__logo{
     font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;

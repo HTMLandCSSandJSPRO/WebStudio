@@ -5,110 +5,48 @@
         <meta name="description" content="WebStudio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
         <title>WebStudio</title>
-        <link rel="stylesheet" href="/css/contacts.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=OleoScript" rel="stylesheet">
+        <link rel="stylesheet" href="./css/contacts.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
 
     </head>
     <body>
         <!-- HEADER -->
         <header class="header">
-                <a class="logo" href="index.html">
-                    <div>
-                        <span class="web">Web</span>
-                        <span class="studio">Studio</span>
-                    </div>
-                    
+                <a class="header__logo" href="index.html">
+                    WebStudio
                 </a>
-            <nav class="nav">
-                <ul class="menu">
-                    <li><a class="nav-studio" href="index.html">Студія</a></li>
-                    <li><a class="nav-portfolio" href="portfolio.html">Портфоліо</a></li>
-                    <li><a class="nav-contacts" href="contacts.html">Контакти</a></li>
-                </ul>        
+            <nav class="header__nav">
+                <ul class="header__nav__menu">
+                    <li><a class="header__nav__menu__item" href="index.html">Студія</a></li>
+                    <li><a class="header__nav__menu__item" href="portfolio.html">Портфоліо</a></li>
+                    <li><a class="header__nav__menu__item" href="contacts.html">Контакти</a></li>
+                </ul>    
             </nav>
-            <address>
-                        <a  class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        <a  class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
-            </address>
-            <div class="line"></div>
+                <ul class="header__contacts">
+                    <li>
+                            <a href="mailto:info@devstudio.com" class="header__mail header__contacts__item">
+                                <h3>info@devstudio.com</h3>
+                            </a>
+                    </li>
+                    <li>
+                            <a href="tel:+380961111111" class="header__tel header__contacts__item">
+                                <h3>+38 096 111 11 11</h3>
+                            </a>                        
+                    </li>
+                </ul>     
+            <div class="header__line"></div>
         </header>
+        <!-- FOOTER -->
         <footer class="footer">
-            <a class="logo-footer" href="">
-                    <div>
-                        <span class="web-footer">Web</span>
-                        <span class="studio-footer">Studio</span>
-                    </div>            
-            </a>
-                <address class="">
-                    <a class="address-footer" href="https://goo.gl/maps/rP3KJcBMN24kTdJs8">м. Київ, пр-т Лесі Українки, 26</a>
-                    <a class="email-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    <a class="tel-footer" href="tel:+380961111111">+380961111111</a>
-                </address>
-                <div>
-                    <h3 class="join">приєднуйтесь</h3>
-                    <div class="social_mediasfooter">
-                                    <ul class="social-mediasfooter">
-                                        <li>
-                                            <a class="intagram" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (2).png" alt="Instagram"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (1).png" alt="Instagram"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1.png" alt="Twitter"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (5).png" alt="Twitter"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (3).png" alt="Facebook"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1 (1).png" alt="Facebook"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                            <li>
-                                <a class="" target="_blank">
-                                <div class="change-icons">
-                                    <div class="change-icon">
-                                        <img src="./img/Ellipse (4).png" alt="Linkedin"/>
-                                    </div>
-                                    <div class="change-icon">
-                                        <img src="./img/Group 1 (2).png" alt="Linkedin"/>
-                                    </div>
-                                </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="subscribe-text">Підпишіться на розсилку</h3>
-                    <form>
-                        <input type="email" placeholder="E-mail" name="email"/>
-                        <button class="subscribe-button" type="submit">Підписатися</button>
-                    </form>
-                </div>
+            <a href="" class="footer__logo">WebStudio</a>
+                <ul class="footer__contacts">
+                    <li><address class="footer__address"><a href="https://goo.gl/maps/rP3KJcBMN24kTdJs8">м. Київ, пр-т Лесі Українки, 26</a></address></li>
+                    <li><a class="footer__mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="footer__tel" href="tel:+380961111111">+380961111111</a></li>
+                </ul>
         </footer>
     </body>
 </html>

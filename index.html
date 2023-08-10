@@ -13,454 +13,109 @@
     <body>
         <!-- HEADER -->
         <header class="header">
-                <a class="logo" href="index.html">
-                    <div class="header__logo">
-                        <span class="web">Web</span>
-                        <span class="studio">Studio</span>
-                    </div>
-                    
+                <a class="header__logo" href="index.html">
+                    WebStudio
                 </a>
-            <nav class="nav">
-                <ul class="menu">
-                    <li><a class="nav-studio" href="index.html">Студія</a></li>
-                    <li><a class="nav-portfolio" href="portfolio.html">Портфоліо</a></li>
-                    <li><a class="nav-contacts" href="contacts.html">Контакти</a></li>
+            <nav class="header__nav">
+                <ul class="header__nav__menu">
+                    <li><a class="header__nav__menu__item" href="index.html">Студія</a></li>
+                    <li><a class="header__nav__menu__item" href="portfolio.html">Портфоліо</a></li>
+                    <li><a class="header__nav__menu__item" href="contacts.html">Контакти</a></li>
                 </ul>    
             </nav>
-            <address>
-                <div class="contacts">
-                    <ul class="contact">
+                <ul class="header__contacts">
                     <li>
-                        <div class="mail">
-                            <a href="mailto:info@devstudio.com">
-                                <span class="email-icon"></span>
-                                <h3 class="email">info@devstudio.com</h3>
+                            <a href="mailto:info@devstudio.com" class="header__mail header__contacts__item">
+                                <h3>info@devstudio.com</h3>
                             </a>
-                        </div>
                     </li>
                     <li>
-                        <div class="phone">
-                            <a href="tel:+380961111111">
-                                <span class="tel-icon"></span>
-                                <h3 class="tel">+38 096 111 11 11</h3>
-                            </a>
-                        </div>
-                        
+                            <a href="tel:+380961111111" class="header__tel header__contacts__item">
+                                <h3>+38 096 111 11 11</h3>
+                            </a>                        
                     </li>
                 </ul>     
-                </div>
-                  
-            </address>
-            <div class="line"></div>
+            <div class="header__line"></div>
         </header>
         <main>
             <!-- HERO -->
             <section class="hero">    
-                    <div class="inner">
-                        <h1 class="h1">
-                            Ефективні рішення для<br> вашого бізнесу
-                        </h1>
-                    
-                    <div class="button-wrapper">
-                        <button class="button-order" name="button">
-                            <span class="button-text">Замовити послугу</span>
-                            <div class="first-mainblack"></div>
-                        </button> 
-                    </div>
-                </section>
-            </div>
+                    <h1 class="hero__title">
+                        Ефективні рішення для<br> вашого бізнесу
+                    </h1>
+                    <button class="order__button" name="button">Замовити послугу</button> 
+            </section>
             <!-- FEATURES -->
-            <section class="second-main">
-                <div class="special_things">
-                    <ul class="special-things">
-                        <li class="feature">
-                            <div class="backgroundimage">
-                                <img class="special-images" src="./img/antenna 1.png" alt="antenna"/>
-                            </div>
-                            <h3 class="featureheader1">УВАГА ДО ДЕТАЛЕЙ</h3>
-                            <p class="featuredescription1">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            <section class="features">
+                    <ul class="features__list">
+                        <li class="features__list__item">
+                            <h3 class="features__list__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                            <p class="features__list__description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                         </li>
-                        <li class="feature">
-                            <div class="backgroundimage">
-                                <img class="special-images" src="./img/clock 1.png" alt="clock"/>
-                            </div>
-                            <h3 class="featureheader2">ПУНКТУАЛЬНІСТЬ</h3>
-                            <p class="featuredescription2">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                        <li class="features__list__item">
+                            <h3 class="features__list__title">ПУНКТУАЛЬНІСТЬ</h3>
+                            <p class="features__list__description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         </li>
-                        <li class="feature">
-                            <div class="backgroundimage">
-                                <img class="special-images" src="./img/diagram 1.png" alt="diagram"/>
-                            </div>
-                            <h3 class="featureheader3">ПЛАНУВАННЯ</h3>
-                            <p class="featuredescription3">Так само консультація з широким активом значною мірою зумовлює.</p>
+                        <li class="features__list__item">
+                            <h3 class="features__list__title">ПЛАНУВАННЯ</h3>
+                            <p class="features__list__description">Так само консультація з широким активом значною мірою зумовлює.</p>
                         </li>
-                        <li class="feature">
-                            <div class="backgroundimage">
-                                <img class="special-images" src="./img/astronaut 1.png" alt="astronaut"/>
-                            </div>
-                            <h3 class="featureheader4">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                            <p class="featuredescription4">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                        <li class="features__list__item">
+                            <h3 class="features__list__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                            <p class="features__list__description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                         </li>
                     </ul>
-                </div>
             </section>
             <!-- WHAT WE DO -->
-            <section class="third-main">
-                <h2 class="whatwedo">Чим ми займаємося</h2>                    
-                    <ul class="list-whatwedo">
-                        <li>
-                            <div class="whatwedoimg1">
-                                <div class="whatwedo1">
-                                    <h3 class="whatwedotext1">Десктопні додатки</h3>
-                                </div>
-                                
-                            </div>
+            <section class="work">
+                <h2 class="work__title">Чим ми займаємося</h2>                    
+                    <ul class="work__list">
+                        <li class="work__list__item">
+                            <img class="work__list__img" src="./img/whatwedo1.png" alt="Чим ми займаємося">
                         </li>
-                        <li>
-                            <div class="whatwedoimg2">
-                                <div class="whatwedo2">
-                                    <h3 class="whatwedotext2">Мобільні додатки</h3>
-                                </div>
-                            </div>
+                        <li class="work__list__item">
+                            <img class="work__list__img" src="./img/whatwedo2.png" alt="Чим ми займаємося">
                         </li>
-                        <li>
-                            <div class="whatwedoimg3">
-                                <div class="whatwedo3">
-                                    <h3 class="whatwedotext3">Дизайнерські рішення</h3>
-                                </div>
-                                
-                            </div>
+                        <li class="work__list__item">
+                            <img class="work__list__img" src="./img/whatwedo3.png" alt="Чим ми займаємося">
                         </li>
                     </ul>
-
             </section>
             <!-- OUR TEAM -->
-            <section class="fourth-main">
-                <h2 class="our-team">Наша команда</h2>
-                <div class="list_workers">
-                    <ul class="list-workers">
-                        <li>
-                            <div class="worker-box">
-                                <img class="workerimage" src="./img/img.jpg" alt="Ігор Дем'яненко">
-                                <h3 class="workername">Ігор Дем'яненко</h3>
-                                <p class="profession">Product Designer</p>
-                                <div class="social_medias">
-                                    <ul class="social-medias">
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (9).png" alt="Instagram"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (1).png" alt="Instagram"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (6).png" alt="Twitter"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (5).png" alt="Twitter"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (7).png" alt="Facebook"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1 (1).png" alt="Facebook"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (8).png" alt="Linkedin"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1 (2).png" alt="Linkedin"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>  
-                            </div>
-                            
-                        </li>
-                        <li>
-                            <div class="worker-box">
-                                <img class="workerimage" src="./img/img (1).jpg" alt="Ольга Рєпіна">
-                                <h3 class="workername">Ольга Рєпіна</h3>
-                                <p class="profession">Frontend Developer</p>
-                                <div class="social_medias">
-                                    <ul class="social-medias">
-                                        <li>
-                                            <a class="intagram" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (9).png" alt="Instagram"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (1).png" alt="Instagram"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (6).png" alt="Twitter"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (5).png" alt="Twitter"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (7).png" alt="Facebook"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1 (1).png" alt="Facebook"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (8).png" alt="Linkedin"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1 (2).png" alt="Linkedin"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                        </li>
-                        <li>
-                            <div class="worker-box">
-                                <img class="workerimage" src="./img/img (2).jpg" alt="Микола Тарасов">
-                                <h3 class="workername">Микола Тарасов</h3>
-                                <p class="profession">Marketing</p>
-                                <div class="social_medias">
-                                    <ul class="social-medias">
-                                        <li>
-                                            <a class="intagram" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (9).png" alt="Instagram"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (1).png" alt="Instagram"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (6).png" alt="Twitter"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (5).png" alt="Twitter"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (7).png" alt="Facebook"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1 (1).png" alt="Facebook"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (8).png" alt="Linkedin"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1 (2).png" alt="Linkedin"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                        </li>
-                        <li>
-                            <div class="worker-box">
-                                <img class="workerimage" src="./img/img (4).jpg" alt="Михайло Єрмаков">
-                                <h3 class="workername">Михайло Єрмаков</h3>
-                                <p class="profession">UI Designer</p>
-                                <div class="social_medias">
-                                    <ul class="social-medias">
-                                        <li>
-                                            <a class="intagram" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (9).png" alt="Instagram"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (1).png" alt="Instagram"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (6).png" alt="Twitter"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (5).png" alt="Twitter"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (7).png" alt="Facebook"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1 (1).png" alt="Facebook"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (8).png" alt="Linkedin"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1 (2).png" alt="Linkedin"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                        </li>
-                    </ul>
-                </div>
+            <section class="team">
+                <h2 class="team__title">Наша команда</h2>
+                <ul class="team__list">
+                    <li class="team__list__item">
+                        <img class="team__list__img" src="./img/worker1.jpg" alt="Ігор Дем'яненко">
+                        <h4 class="team__list__title">Ігор Дем'яненко</h4>
+                        <p class="team__list__description">Product Designer</p>
+                    </li>
+                    <li class="team__list__item">
+                        <img class="team__list__img" src="./img/worker2.jpg" alt="Ольга Рєпіна">
+                        <h4 class="team__list__title">Ольга Рєпіна</h4>
+                        <p class="team__list__description">Frontend Developer</p>
+                    </li>
+                    <li class="team__list__item">
+                        <img class="team__list__img" src="./img/worker3.jpg" alt="Микола Тарасов">
+                        <h4 class="team__list__title">Микола Тарасов</h4>
+                        <p class="team__list__description">Marketing</p>
+                    </li>
+                    <li class="team__list__item">
+                        <img class="team__list__img" src="./img/worker4.jpg" alt="Михайло Єрмаков">
+                        <h4 class="team__list__title">Михайло Єрмаков</h4>
+                        <p class="team__list__description">UI Designer</p>
+                    </li>
+                </ul>
             </section>
         </main>
         <!-- FOOTER -->
         <footer class="footer">
-            <a class="logo-footer" href="">
-                    <div>
-                        <span class="web-footer">Web</span>
-                        <span class="studio-footer">Studio</span>
-                    </div>            
-            </a>
-                <address class="">
-                    <a class="address-footer" href="https://goo.gl/maps/rP3KJcBMN24kTdJs8">м. Київ, пр-т Лесі Українки, 26</a>
-                    <a class="email-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    <a class="tel-footer" href="tel:+380961111111">+380961111111</a>
-                </address>
-                <div>
-                    <h3 class="join">приєднуйтесь</h3>
-                    <div class="social_mediasfooter">
-                                    <ul class="social-mediasfooter">
-                                        <li>
-                                            <a class="intagram" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (2).png" alt="Instagram"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (1).png" alt="Instagram"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1.png" alt="Twitter"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (5).png" alt="Twitter"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank">
-                                                <div class="change-icons">
-                                                    <div class="change-icon">
-                                                        <img src="./img/Ellipse (3).png" alt="Facebook"/>
-                                                    </div>
-                                                    <div class="change-icon">
-                                                        <img src="./img/Group 1 (1).png" alt="Facebook"/>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                            <li>
-                                <a class="" target="_blank">
-                                <div class="change-icons">
-                                    <div class="change-icon">
-                                        <img src="./img/Ellipse (4).png" alt="Linkedin"/>
-                                    </div>
-                                    <div class="change-icon">
-                                        <img src="./img/Group 1 (2).png" alt="Linkedin"/>
-                                    </div>
-                                </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="subscribe-text">Підпишіться на розсилку</h3>
-                    <form>
-                        <input type="email" placeholder="E-mail" name="email"/>
-                        <button class="subscribe-button" type="submit">
-                            <h3 class="subscribe-button-text">Підписатися</h3>
-                            <div class="subscribe-button-img"></div>
-                        </button>
-                    </form>
-                </div>
+            <a href="" class="footer__logo">WebStudio</a>
+                <ul class="footer__contacts">
+                    <li><address class="footer__address"><a href="https://goo.gl/maps/rP3KJcBMN24kTdJs8">м. Київ, пр-т Лесі Українки, 26</a></address></li>
+                    <li><a class="footer__mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="footer__tel" href="tel:+380961111111">+380961111111</a></li>
+                </ul>
         </footer>
     </body>
 </html>
