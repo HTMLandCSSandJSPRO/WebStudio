@@ -5,10 +5,11 @@
         <meta name="description" content="WebStudio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
         <title>WebStudio</title>
-        <link rel="stylesheet" href="/css/style.css"/>
+        <link rel="stylesheet" href="./css/style.css"/>
+        <link rel="stylesheet" href="./css/normalize.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- HEADER -->
@@ -16,22 +17,22 @@
                 <a class="header__logo" href="index.html">
                     WebStudio
                 </a>
-            <nav class="header__nav">
-                <ul class="header__nav__menu">
-                    <li><a class="header__nav__menu__item" href="index.html">Студія</a></li>
-                    <li><a class="header__nav__menu__item" href="portfolio.html">Портфоліо</a></li>
-                    <li><a class="header__nav__menu__item" href="contacts.html">Контакти</a></li>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list__item"><a class="nav__list__link" href="index.html">Студія</a></li>
+                    <li class="nav__list__item"><a class="nav__list__link" href="portfolio.html">Портфоліо</a></li>
+                    <li class="nav__list__item"><a class="nav__list__link" href="contacts.html">Контакти</a></li>
                 </ul>    
             </nav>
-                <ul class="header__contacts">
-                    <li>
-                            <a href="mailto:info@devstudio.com" class="header__mail header__contacts__item">
-                                <h3>info@devstudio.com</h3>
+                <ul class="contacts__list">
+                    <li class="contacts__list__item">
+                            <a class="contacts__list__link" href="mailto:info@devstudio.com" class="header__mail header__contacts__item">
+                                info@devstudio.com
                             </a>
                     </li>
-                    <li>
-                            <a href="tel:+380961111111" class="header__tel header__contacts__item">
-                                <h3>+38 096 111 11 11</h3>
+                    <li class="contacts__list__item">
+                            <a class="contacts__list__link" href="tel:+380961111111" class="header__tel header__contacts__item">
+                                +38 096 111 11 11
                             </a>                        
                     </li>
                 </ul>     
@@ -49,19 +50,19 @@
             <section class="features">
                     <ul class="features__list">
                         <li class="features__list__item">
-                            <h3 class="features__list__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                            <h3 class="features__list__title">Увага до деталей</h3>
                             <p class="features__list__description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                         </li>
                         <li class="features__list__item">
-                            <h3 class="features__list__title">ПУНКТУАЛЬНІСТЬ</h3>
+                            <h3 class="features__list__title">Пунктуальність</h3>
                             <p class="features__list__description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         </li>
                         <li class="features__list__item">
-                            <h3 class="features__list__title">ПЛАНУВАННЯ</h3>
+                            <h3 class="features__list__title">Планування</h3>
                             <p class="features__list__description">Так само консультація з широким активом значною мірою зумовлює.</p>
                         </li>
                         <li class="features__list__item">
-                            <h3 class="features__list__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                            <h3 class="features__list__title">Сучасні технології</h3>
                             <p class="features__list__description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                         </li>
                     </ul>
@@ -110,12 +111,14 @@
         </main>
         <!-- FOOTER -->
         <footer class="footer">
-            <a href="" class="footer__logo">WebStudio</a>
-                <ul class="footer__contacts">
-                    <li><address class="footer__address"><a href="https://goo.gl/maps/rP3KJcBMN24kTdJs8">м. Київ, пр-т Лесі Українки, 26</a></address></li>
-                    <li><a class="footer__mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="footer__tel" href="tel:+380961111111">+380961111111</a></li>
+            <a href="" class="footer-logo">WebStudio</a>
+            <address class="address">
+                <ul class="address-list">
+                    <li class="address-list-item"><a class="address-list-link" href="https://goo.gl/maps/rP3KJcBMN24kTdJs8">м. Київ, пр-т Лесі Українки, 26</a></li>
+                    <li class="address-list-item"><a class="address-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="address-list-item"><a class="address-list-link" href="tel:+380961111111">+380961111111</a></li>
                 </ul>
+            </address>
         </footer>
     </body>
 </html>

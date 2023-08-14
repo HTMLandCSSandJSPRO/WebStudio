@@ -1,0 +1,68 @@
+body{
+    background-color: var(--first-main-color);
+    font-family: Roboto;
+}
+
+:root {
+    --first-main-color: #ffffff;
+    --second-main-color: #2196F3;
+    --header-line: #ECECEC;
+    --studio-logo-color: #000000;
+    --header-mail-and-tel-and-p: #757575;
+    --hero-button-shadow: #00000026;
+    --textheader-color-and-nav: #212121;
+    --worker-section-color: #F5F4FA;
+    --worker-box-shadow-first: #00000033;
+    --worker-box-shadow-second: #00000024;
+    --worker-box-shadow-third: #0000001F;
+    --footer-mail-and-tel: #ffffff99;
+    --footer-and-hero-color: #2F303A;
+    --portfolio-container: #EEEEEE;
+}
+
+h1{
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+p{
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+button{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
