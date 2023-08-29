@@ -22,3 +22,25 @@
     letter-spacing: 0.02em;
     text-align: left;
 }
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.hero{
+    padding: 200px 0;
+}
+
+.features{
+    margin: 94px 0;
+}
+
+.work {
+    margin: 94px 0;
+}
+
+.team{
+    padding: 94px 0;
+}
