@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .header__logo {
     font-family: Raleway;
     font-size: 26px;
@@ -43,4 +48,78 @@
 
 .team{
     padding: 94px 0;
+}
+.nav{
+    display: inline-block;
+}
+
+.nav__list {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.contacts__list {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.features__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap:wrap;
+}
+
+.work__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap:wrap;
+}
+
+.team__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap:wrap;
+}
+
+.address__list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    flex-wrap:wrap;
+}
+
+.team__list__img{
+    height: 260px;
+    width: 270px;
+}
+
+.hero__title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.order__button {
+    display: block;
+    margin: 0 auto;
+}
+
+.work__title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.team__title {
+    display: flex;
+    justify-content: center;
 }
