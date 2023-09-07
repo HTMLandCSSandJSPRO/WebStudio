@@ -5,10 +5,6 @@
         <meta name="description" content="WebStudio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
         <title>WebStudio</title>
-        <link rel="stylesheet" href="./css/style.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -16,13 +12,21 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css"/>
+        <link rel="stylesheet" href="./css/style.css"/>
+        
+        
     </head>
     <body>
         <!-- HEADER -->
         <header class="header">
             <div class="container">
+                <div class="header__content__wrap">
                 <a class="header__logo" href="index.html">
-                    WebStudio
+                    Web<span>Studio</span>
                 </a>
             <nav class="nav">
                 <ul class="nav__list">
@@ -35,15 +39,15 @@
                     <li class="contacts__list__item"><a class="contacts__list__link" href="mailto:info@devstudio.com" class="header__mail header__contacts__item">info@devstudio.com</a></li>
                     <li class="contacts__list__item"><a class="contacts__list__link" href="tel:+380961111111" class="header__tel header__contacts__item">+38 096 111 11 11</a></li>
                 </ul>    
+                </div>
             </div>  
-            <div class="header__line"></div>
         </header>
         <main>
             <!-- HERO -->
             <section class="hero">
                 <div class="container">
                     <h1 class="hero__title">
-                        Ефективні рішення для<br> вашого бізнесу
+                        Ефективні рішення для вашого бізнесу
                     </h1>
                     <button class="order__button" name="button">Замовити послугу</button> 
                 </div>  
@@ -95,23 +99,35 @@
                     <ul class="team__list">
                         <li class="team__list__item">
                             <img class="team__list__img" src="./img/worker1.jpg" alt="Ігор Дем'яненко">
-                            <h4 class="team__list__title">Ігор Дем'яненко</h4>
-                            <p class="team__list__description">Product Designer</p>
+                            <div class="team__list__container">
+                                <h4 class="team__list__title">Ігор Дем'яненко</h4>
+                                <p class="team__list__description">Product Designer</p>
+                            </div>
+                            
                         </li>
                         <li class="team__list__item">
                             <img class="team__list__img" src="./img/worker2.jpg" alt="Ольга Рєпіна">
-                            <h4 class="team__list__title">Ольга Рєпіна</h4>
-                            <p class="team__list__description">Frontend Developer</p>
+                            <div class="team__list__container">
+                                <h4 class="team__list__title">Ольга Рєпіна</h4>
+                                <p class="team__list__description">Frontend Developer</p>
+                            </div>
+                            
                         </li>
                         <li class="team__list__item">
                             <img class="team__list__img" src="./img/worker3.jpg" alt="Микола Тарасов">
-                            <h4 class="team__list__title">Микола Тарасов</h4>
-                            <p class="team__list__description">Marketing</p>
+                            <div class="team__list__container">
+                                <h4 class="team__list__title">Микола Тарасов</h4>
+                                <p class="team__list__description">Marketing</p>
+                            </div>
+                            
                         </li>
                         <li class="team__list__item">
                             <img class="team__list__img" src="./img/worker4.jpg" alt="Михайло Єрмаков">
-                            <h4 class="team__list__title">Михайло Єрмаков</h4>
-                            <p class="team__list__description">UI Designer</p>
+                            <div class="team__list__container">
+                                <h4 class="team__list__title">Михайло Єрмаков</h4>
+                                <p class="team__list__description">UI Designer</p>
+                            </div>
+                            
                         </li>
                     </ul>
                 </div>
@@ -120,10 +136,12 @@
         <!-- FOOTER -->
         <footer class="footer">
             <div class="container">
-                <a href="" class="footer__logo">WebStudio</a>
+                <a href="" class="footer__logo">
+                    Web<span>Studio</span>
+                </a>
                 <address class="address">
                     <ul class="address__list">
-                        <li class="address__list__item"><a class="address__list__link" href="https://goo.gl/maps/rP3KJcBMN24kTdJs8">м. Київ, пр-т Лесі Українки, 26</a></li>
+                        <li class="address__list__item"><a class="address__list__link address__list__address" href="https://goo.gl/maps/rP3KJcBMN24kTdJs8">м. Київ, пр-т Лесі Українки, 26</a></li>
                         <li class="address__list__item"><a class="address__list__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                         <li class="address__list__item"><a class="address__list__link" href="tel:+380961111111">+380961111111</a></li>
                     </ul>
