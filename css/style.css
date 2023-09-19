@@ -2,27 +2,6 @@
     --white-color: white;
     --black-color: black;
 }
-
-button{
-    outline: none;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;    
-}
-
-a{
-    text-decoration: none;
-}
-
-*{
-    padding: 0;
-    margin: 0;
-}
-
-:hover{
-    transition: 0.5s;
-}
-
 /* CONTAINER */
 
 .container {
@@ -36,6 +15,7 @@ a{
     height: 80px;
     background-color: var(--white-color);
     width: 100%;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header__content__wrap{
@@ -72,8 +52,6 @@ a{
     margin-left: auto;
     gap: 50px;
 }
-
-
 
 .nav__list__link{
     font-size: 14px;
