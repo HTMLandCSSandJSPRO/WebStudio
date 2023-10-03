@@ -160,6 +160,32 @@
     color: #757575;
 }
 
+.features__list__item::before{
+    content: '';
+    display: block;
+    width: 270px; 
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features__list__item1::before {
+    background-image: url('../img/antenna\ 1\ \(1\).png');
+}
+
+.features__list__item2::before {
+    background-image: url('../img/clock\ 1\ \(1\).png');
+}
+
+.features__list__item3::before {
+    background-image: url('../img/diagram\ 1\ \(1\).png');
+}
+
+.features__list__item4::before {
+    background-image: url('../img/astronaut\ 1\ \(1\).png');
+}
 /* WORK */
 
 .work {
