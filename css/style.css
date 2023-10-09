@@ -117,6 +117,7 @@
     line-height: 1.9;
     letter-spacing: 0.06em;
     text-align: center;
+    box-shadow: 0px 4px 4px 0px #00000026;
 }
 
 .order__button:hover {
@@ -172,19 +173,19 @@
 }
 
 .features__list__item1::before {
-    background-image: url('../img/antenna\ 1\ \(1\).png');
+    background-image: url('../img/antenna.png');
 }
 
 .features__list__item2::before {
-    background-image: url('../img/clock\ 1\ \(1\).png');
+    background-image: url('../img/clock.png');
 }
 
 .features__list__item3::before {
-    background-image: url('../img/diagram\ 1\ \(1\).png');
+    background-image: url('../img/diagram.png');
 }
 
 .features__list__item4::before {
-    background-image: url('../img/astronaut\ 1\ \(1\).png');
+    background-image: url('../img/astronaut.png');
 }
 /* WORK */
 
@@ -242,7 +243,9 @@
 .team__list__item{
     border-radius: 0px 0px 4px 4px;
     background-color: var(--white-color);
-    box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001F;
+    box-shadow: 0px 2px 1px 0px #00000033,
+                0px 1px 1px 0px #00000024,
+                0px 1px 3px 0px #0000001F;
 }
 
 .team__list__img{
