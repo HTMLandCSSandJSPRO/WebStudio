@@ -89,7 +89,11 @@
 
 .hero{
     padding: 200px 0;
-    background-color: #2F303A;
+    background-color: #2F303A66;
+    background-image: url("../img/herobackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero__title {
