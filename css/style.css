@@ -257,7 +257,7 @@
 }
 
 .team__list__container{
-    padding: 30px 0;
+    padding: 30px 0 16px 0;
 }
 
 .team__list__title{
@@ -280,11 +280,81 @@
     margin-top: 10px;
 }
 
+.team__social__medias{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.team__social__media__link{
+    fill: #AFB1B8;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__social__media__link:hover {
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
+
+/* CLIENTS */
+
+.clients{
+    padding: 94px 0;
+}
+
+.clients__title{
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.clients__list{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+.clients__item__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
+    outline: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients__logo{
+    fill: #AFB1B8;
+}
+
+.clients__item__link:hover {
+    outline: 1px solid #2196F3;
+    fill: #2196F3;
+}
+
+.clients__item__link:hover > svg > .clients__logo {
+    fill: #2196F3;
+}
+
 /* FOOTER */
 
 .footer{
     background-color: #2F303A;
     padding: 60px 0;
+}
+
+.footer__wrap{
+    display: flex;
+    column-gap: 70px
 }
 
 .footer__logo {
@@ -321,4 +391,35 @@
 
 .address__list__address{
     color: var(--white-color);
+}
+
+.footer__join__title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+.footer__social__medias {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}
+
+.footer__social__media__link {
+    fill: #FFFFFF;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF1A;
+}
+
+.footer__social__media__link:hover {
+    background-color: #2196F3;
 }
