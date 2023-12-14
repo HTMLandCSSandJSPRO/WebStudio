@@ -66,7 +66,13 @@
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    text-align: left;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.contacts__item__icon{
+    fill: #757575;
 }
 
 .nav__list__link{
@@ -83,6 +89,10 @@
 
 .contacts__list__link:hover {
     color: #2196F3;
+}
+
+.contacts__list__link:hover > svg > use{
+    fill: #2196F3;
 }
 
 /* HERO */
